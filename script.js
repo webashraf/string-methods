@@ -1,0 +1,17 @@
+const string = '     I love bangladesh. bangladesh is a muslim country.    ';
+let text = "I";
+console.log(string.length);
+console.log(string.slice(-6, -2));
+console.log(string.substring(2, 6));
+console.log(string.substr(7, 6));
+console.log(string.replace('bangladesh', 'pakistan'));
+console.log(string.replaceAll('bangladesh', 'pakistan'));
+console.log(string.concat(string , 'Fuck'));
+console.log(string.trim());
+console.log(string.trimStart());
+console.log(string.trimEnd());
+console.log(string.padStart(100,"0"));
+console.log(string.padEnd(100, 'I'));
+console.log(string.charAt(10));
+console.log(string.charCodeAt(10));
+console.log(string.split(' '));
